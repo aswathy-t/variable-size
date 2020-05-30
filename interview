@@ -1,0 +1,27 @@
+ 
+
+#include <stdio.h>
+void size(void);
+
+int main()
+{
+    size();
+
+    return 0;
+}
+void size(void)
+{
+    int* ptr ;
+    int k,r;
+    
+
+    k=ptr;
+
+    ptr++;
+    r=ptr;
+    r=r-k;
+    
+    
+  printf("%d\n",r);
+    
+}
